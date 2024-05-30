@@ -1,0 +1,248 @@
+.main,.main-navbar {
+   background-color: #fff;
+}
+.button-color {
+   background-color: #2f5b9c;
+}
+.text-color {
+   color: #2f5b9c;
+}
+/* .main-navbar{
+   background-color: #fff;
+} */
+.main-footer {
+   background-color: #f2fdf2;
+   padding: 60px 0;
+}
+/* .slick-slider {
+   margin: 0 auto;
+   width: 87%; 
+} */
+
+.background-img {
+   background-image: url("../images/grocery.jpg");
+   height: 600px;
+   width:1374px;
+   background-repeat: no-repeat;
+} 
+
+.background-picture {
+   background-image: url("../images/grocery-2.jpg");
+   height: 600px;
+   width:1374px;
+   background-repeat: no-repeat;
+} 
+.textSpacing {
+   font-weight: bold;
+}
+/* .text-family {
+   font-family: sans-serif;
+} */
+.textGreenColor {
+   color: rgb(25, 172, 25);
+}
+.sign-up-text:hover{
+   color: rgb(137, 206, 91);
+}
+.backgroundGreenColor {
+   background-color: rgb(76 126 76);
+}
+.featured_link {
+   margin: 0px 10px;
+}
+
+.slick-list.draggable {
+   padding: 0px !important;
+}
+
+.fruits-banner {
+   background-image : url("../images/grocery-banner.png");
+   background-size: cover; 
+   background-position: center
+}
+
+.bakery-banner{
+   background-image : url("../images/grocery-banner-2.jpg");
+   background-size: cover; 
+   background-position: center
+}
+.card-product:hover {
+   /* border: 2px solid #007bff; */
+   box-shadow: #96a196 0px 1px 6px 0px,#96a196 0px 2px 0px -2px;
+}
+.card-product {
+   width: 155px;
+   height: 210px; 
+}
+.card-popular-product:hover {
+   /* border: 2px solid #007bff; */
+   box-shadow: #96a196 0px 1px 6px 0px,#96a196 0px 2px 0px -2px;
+}
+.slick-prev:before {
+   font-family: 'slick';
+   font-size: 30px;
+   line-height: 0;
+   opacity: 0.75;
+   color: #b3b3b3;
+   -webkit-font-smoothing: antialiased
+}
+.container {
+   max-width: 1400px;
+}
+.backgroundColor{
+   background-color: #3c9633;
+}
+.greenColor {
+   color: #3c9633;
+}
+.sidebar-color:hover {
+   background-color: rgb(240 255 240);
+}
+.sidebar-color.active{
+   border-left: 4px solid rgb(111, 182, 127);
+   background-color: rgb(240 255 240);
+}
+.productBackground {
+   background-color: #f1f5f7;
+}
+.card-prodict-category {
+   width: 155px;
+   height: 279px;
+
+}
+.zoom-img {
+   height: 350px;
+   width: 350px;
+}
+
+.columns {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.details {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  float: left;
+}
+
+#header {
+  width: 100%;
+  text-align: center;
+  background: white;
+  padding: 5px;
+  /*box-shadow: 0 10px 17px 0px #c0c0c0;*/
+  box-shadow: 0 5px 10px 0px #dbd7d7;
+}
+#header img {
+  max-width: 30px;
+}
+
+.columns {
+  margin-top: 30px;
+}
+
+.rounded-card-border{
+   border-radius: 25px;
+}
+
+.rounded-button {
+   border-radius: 3px;
+}
+
+.shopping-text {
+   font-family: Arial, Helvetica, sans-serif !important ;
+   color: #aaa9a9;
+}
+
+.shopping-text:hover {
+   color: #7f7f85;
+   text-decoration: none;
+}
+
+.body-background{
+   background-color: #f2fdf2;
+}
+
+hr{
+   border-top: 1px solid #c9ddba;
+}
+
+.searchProduct {
+   padding-left: 2.375rem;
+}
+
+.form-control-feedback {
+   position: absolute;
+   z-index: 2;
+   display: block;
+   width: 2.375rem;
+   height: 2.375rem;
+   line-height: 2.375rem;
+   text-align: center;
+   pointer-events: none;
+   color: #aaa;
+}
+
+.slick-prev:before, .slick-next:before {
+   font-family: 'slick';
+   font-size: 20px;
+   line-height: 1;
+   opacity: .75;
+   color: #47a959;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev, .slick-next {
+   font-size: 0;
+   line-height: 0;
+   position: absolute;
+   top: 50%;
+   display: block;
+   width: 20px;
+   height: 20px;
+   padding: 0;
+   -webkit-transform: translate(0, -50%);
+   -ms-transform: translate(0, -50%);
+   transform: translate(0, -50%);
+   cursor: pointer;
+   color: #0a0a0a;
+   border: none;
+   outline: none;
+   background: #ffffff;
+}
+/* .detailsColor {
+   background-color: #f7fbf5;
+   height: 100%;
+} */
+
+/* @media (min-width: 1400px) {
+   .container {
+       max-width: 1320px;
+   }
+}
+@media (min-width: 1200px){
+   .container {
+       max-width: 1140px;
+   }
+}
+
+@media (min-width: 992px) {
+   .container {
+       max-width: 960px;
+   }
+}
+
+@media (min-width: 768px) {
+   .container {
+       max-width: 720px;
+   }
+}
+
+@media (min-width: 576px) {
+   .container {
+       max-width: 540px;
+   }
+} */
